@@ -4,7 +4,7 @@ A feature-rich Task Management System built with the MERN stack (MongoDB, Expres
 
 ## 🌐 Live Demo
 
-🔗 [Live Application](https://your-deployed-app-link.com)
+🔗 [Live Application](https://task-tify.vercel.app/)
 
 ## 🧉 Tech Stack
 
@@ -75,6 +75,7 @@ A feature-rich Task Management System built with the MERN stack (MongoDB, Expres
 
   * Full control: create, assign, update, delete tasks
   * Can view all users and all tasks
+  * Use code 354097 for creating user as admin
 * **Member:**
 
   * Can view and update the status of assigned tasks only
@@ -127,8 +128,8 @@ npm run dev
 
 ## 📄 Deployment Links
 
-* **Frontend:** [Vercel Link](https://your-frontend-link.com)
-* **Backend:** Used MongoDB atlas
+* **Frontend:** [Vercel Link](https://task-tify.vercel.app)
+* **Backend:** [render Link](https://tasktify-v4xw.onrender.com)
 
 ---
 

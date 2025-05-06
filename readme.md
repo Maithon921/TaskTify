@@ -46,14 +46,17 @@ A feature-rich Task Management System built with the MERN stack (MongoDB, Expres
 
 * Admin Dashboard:
 
-  * All created tasks
-  * All assigned tasks
-  * Overdue tasks
+  * Number of All created tasks
+  * Number of All assigned tasks
+  * Number of Overdue tasks
+  * Number of Team member
+  * Recent tasks
 * Member Dashboard:
 
-  * Tasks assigned to them
-  * Tasks they’ve created (if applicable)
-  * Overdue tasks
+  * Number of Tasks assigned to them
+  * Number of Completed task
+  * Number of Overdue tasks
+  * Recent Task assigned to them.
 
 > Note: Members have restricted access because they cannot create or modify tasks — only view and update the status of assigned tasks.
 
@@ -84,13 +87,14 @@ A feature-rich Task Management System built with the MERN stack (MongoDB, Expres
 ### Prerequisites
 
 * Node.js
-* MongoDB Atlas (cloud-hosted)
+* MongoDB Atlas (currently used in my project:- cloud-hosted)
 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/task-management-app.git
+git clone https://github.com/Maithon921/TaskTify.git
 cd task-management-app
+# Add your base url `.env` file
 ```
 
 ### Backend Setup
@@ -110,9 +114,6 @@ npm install
 npm run dev
 ```
 
-> No need to deploy MongoDB separately — MongoDB Atlas handles database hosting in the cloud.
-
----
 
 ## 📝 Assumptions & Decisions
 
@@ -127,7 +128,7 @@ npm run dev
 ## 📄 Deployment Links
 
 * **Frontend:** [Vercel Link](https://your-frontend-link.com)
-* **Backend:** [Render Link](https://your-backend-link.com)
+* **Backend:** Used MongoDB atlas
 
 ---
 
@@ -138,7 +139,3 @@ npm run dev
 * Helped brainstorm architecture decisions and edge-case handling
 
 ---
-
-## 📃 License
-
-This project is open-source and available under the [MIT License](LICENSE).

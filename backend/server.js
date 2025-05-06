@@ -15,6 +15,11 @@ app.use(
     origin: "http://localhost:5173",
   })
 );
+
+app.get("/", (req, res) => {
+  res.send("Welcome to the Task Management API 🚀");
+});
+
 // routes
 app.use("/auth", authRoutes);
 app.use("/user", userRoutes);
@@ -31,7 +36,9 @@ db.on("error", () => {
   console.log("Failed to connect Database");
 });
 
+const port = process.env.PORT || 4000
+
 // listening to server
-app.listen(5000, () => {
-  console.log("Server running in port 5000");
+app.listen(port, () => {
+  console.log(`Server running in port ${port}`);
 });

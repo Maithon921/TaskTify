@@ -12,7 +12,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://tasktify-v4xw.onrender.com",
+    origin: ["http://localhost:5173", "https://task-tify.vercel.app"],
   })
 );
 

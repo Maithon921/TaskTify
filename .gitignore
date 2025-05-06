@@ -1,0 +1,61 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Build output
+dist/
+build/
+out/
+
+# Env files
+.env
+.env.*.local
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor folders and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Parcel cache
+.cache/
+
+# dotenv override
+!.env.example
+
+# Local history
+.history/
+
+# MongoDB dump files
+dump/
+
+# VS Code local history
+.vscode-test/
+
+# Debug output
+debug.log
+
+# Mac system files
+*.DS_Store
+
